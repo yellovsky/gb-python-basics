@@ -1,0 +1,15 @@
+Lorem 12000.32
+Ipsum 123000.34
+Dolor 43000.54
+Sit 43000.23
+Amet 324000.53
+Consectetur 234000.43
+Adipiscing 43000.3
+Elit 3000.0
+Sed 32000.44
+Mattis 31000.4
+Nulla 12000.32
+Id 4332000.43
+Facilisis 65000.56
+Varius 41000.67
+Vestibulum 734000.65
