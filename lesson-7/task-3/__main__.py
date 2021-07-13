@@ -38,8 +38,13 @@ class Cell:
 
         return Cell(num)
 
+    def make_order(self, in_row):
+        full = self.num // in_row
+        rest = self.num % in_row
 
-cell_a = Cell(4)
-cell_b = Cell(3)
+        a_row = '*' * in_row
+        full_rows = list(map(lambda _: a_row, range(full)))
+        full_rows.append('*' * rest)
 
-cell_a / cell_b
+        print('full_rows', full_rows)
+        return '\n'.join(filter(None, full_rows))
