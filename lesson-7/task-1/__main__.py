@@ -29,5 +29,14 @@ class Matrix:
 
         return Matrix(rows)
 
+    def __str__(self):
+        result = ''
+
+        for row in self.rows:
+            str_row = [f'{el:4}' for el in row]
+            result += ', '.join(str_row) + '\n'
+
+        return result
+
     def get_dimensions(self):
         return len(self.rows), len(self.rows[0])
